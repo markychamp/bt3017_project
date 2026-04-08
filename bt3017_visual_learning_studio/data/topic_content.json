@@ -1,0 +1,24 @@
+{
+    "home": {
+      "title": "BT3017 Visual Learning Studio",
+      "subtitle": "An interactive platform for visualising and learning selected BT3017 topics.",
+      "description": "This application helps undergraduate students learn BT3017 through guided explanations, interactive visualisations, and short quizzes."
+    },
+    "topics": [
+      {
+        "name": "PCA",
+        "summary": "Understand dimensionality reduction through principal components, projection, and explained variance.",
+        "importance": "Helps students understand how high-dimensional data can be represented more compactly."
+      },
+      {
+        "name": "Audio Features",
+        "summary": "Learn waveform, FFT, and spectrogram intuition through interactive signal visualisation.",
+        "importance": "Shows how raw sound can be transformed into useful machine learning features."
+      },
+      {
+        "name": "Graph Learning",
+        "summary": "Explore adjacency matrices, node degree, graph Laplacians, and spectral intuition.",
+        "importance": "Helps students understand how connected data can be represented and analysed."
+      }
+    ]
+  }

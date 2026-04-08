@@ -1,0 +1,140 @@
+{
+    "PCA": [
+      {
+        "question": "What does PC1 represent?",
+        "options": [
+          "The original x-axis",
+          "The direction of maximum variance",
+          "The smallest feature",
+          "The mean of the dataset"
+        ],
+        "answer": "The direction of maximum variance",
+        "explanation": "PC1 is the direction along which the data varies the most."
+      },
+      {
+        "question": "Why is PCA useful?",
+        "options": [
+          "It increases the number of features",
+          "It reduces dimensionality while preserving important structure",
+          "It only works for graphs",
+          "It always improves accuracy"
+        ],
+        "answer": "It reduces dimensionality while preserving important structure",
+        "explanation": "PCA compresses data into fewer dimensions while keeping as much variance as possible."
+      },
+      {
+        "question": "When should standardisation be considered before PCA?",
+        "options": [
+          "When features have very different scales",
+          "Only when there are 2 features",
+          "Never",
+          "Only for text data"
+        ],
+        "answer": "When features have very different scales",
+        "explanation": "Large-scale features can dominate PCA if the data is not standardised."
+      },
+      {
+        "question": "What does explained variance tell us?",
+        "options": [
+          "How much information a component keeps",
+          "How many classes are present",
+          "How many samples were removed",
+          "How long training takes"
+        ],
+        "answer": "How much information a component keeps",
+        "explanation": "Explained variance shows how much of the dataset's variation is captured by each component."
+      }
+    ],
+    "Audio Features": [
+      {
+        "question": "What does a waveform show?",
+        "options": [
+          "Amplitude over time",
+          "Frequency over time",
+          "Graph structure",
+          "Classification accuracy"
+        ],
+        "answer": "Amplitude over time",
+        "explanation": "A waveform is the raw audio signal shown in the time domain."
+      },
+      {
+        "question": "What does FFT help us see?",
+        "options": [
+          "Which frequencies are present in a signal",
+          "The graph Laplacian",
+          "The PCA axis",
+          "The model confusion matrix"
+        ],
+        "answer": "Which frequencies are present in a signal",
+        "explanation": "FFT transforms the signal from time domain to frequency domain."
+      },
+      {
+        "question": "Why is a spectrogram useful?",
+        "options": [
+          "It shows how frequency content changes over time",
+          "It replaces all audio features",
+          "It only works for images",
+          "It removes all noise perfectly"
+        ],
+        "answer": "It shows how frequency content changes over time",
+        "explanation": "A spectrogram adds time information to frequency analysis."
+      },
+      {
+        "question": "Why is FFT alone sometimes not enough?",
+        "options": [
+          "It loses timing information",
+          "It cannot detect any frequencies",
+          "It only works on text",
+          "It makes the signal longer"
+        ],
+        "answer": "It loses timing information",
+        "explanation": "FFT on the whole signal tells you what frequencies exist, but not when they occur."
+      }
+    ],
+    "Graph Learning": [
+      {
+        "question": "What does an adjacency matrix represent?",
+        "options": [
+          "Which nodes are connected",
+          "The frequencies in a signal",
+          "Only the node labels",
+          "The PCA projection"
+        ],
+        "answer": "Which nodes are connected",
+        "explanation": "The adjacency matrix records whether pairs of nodes share an edge."
+      },
+      {
+        "question": "What is the degree of a node?",
+        "options": [
+          "The number of connections it has",
+          "Its cluster label",
+          "Its variance score",
+          "Its matrix size"
+        ],
+        "answer": "The number of connections it has",
+        "explanation": "The degree counts the number of edges incident to the node."
+      },
+      {
+        "question": "What is the graph Laplacian used for?",
+        "options": [
+          "Capturing graph structure and supporting spectral methods",
+          "Playing audio",
+          "Scaling raw features",
+          "Displaying web pages"
+        ],
+        "answer": "Capturing graph structure and supporting spectral methods",
+        "explanation": "The graph Laplacian is central in spectral clustering and graph analysis."
+      },
+      {
+        "question": "What is the key idea of spectral clustering?",
+        "options": [
+          "Use eigenvectors of the Laplacian to reveal clusters",
+          "Sort nodes alphabetically",
+          "Remove all edges",
+          "Use FFT on the graph"
+        ],
+        "answer": "Use eigenvectors of the Laplacian to reveal clusters",
+        "explanation": "Spectral clustering uses the Laplacian's eigenvectors to uncover graph structure."
+      }
+    ]
+  }
