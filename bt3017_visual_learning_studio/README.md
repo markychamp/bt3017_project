@@ -15,6 +15,7 @@ An interactive Streamlit learning platform for selected BT3017 topics.
 - Topic-based quizzes
 - Progress and review tracking
 - Modular multi-page architecture
+- Integrated AI Tutor chatbot
 
 ## Project Structure
 
@@ -27,6 +28,7 @@ bt3017_visual_learning_studio/
 ├── pages/
 ├── components/
 ├── utils/
+├── services/
 ├── data/
 ├── assets/
 └── .streamlit/
